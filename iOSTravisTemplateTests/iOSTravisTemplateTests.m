@@ -18,7 +18,6 @@ describe(@"ApiMaster", ^{
             ^void(AFHTTPRequestOperation *operation, id responseObject) {
                 
                 NSMutableArray *jsonArray = [NSMutableArray arrayWithArray:responseObject];
-                
                 done();
             };
             
