@@ -8,6 +8,6 @@ target 'iOSTravisTemplate' do
 end
 
 target 'iOSTravisTemplateTests' do
-
+  pod 'Specta', '~> 0.5'
+  pod 'Expecta', '~> 0.3'
 end
-
