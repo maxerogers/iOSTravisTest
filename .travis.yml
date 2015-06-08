@@ -1,5 +1,5 @@
 language: objective-c
 podfile: Podfile
-xcode_project: iOSTravisTemplate.xcodeproj # path to your xcodeproj folder
+xcode_workspace: iOSTravisTemplate.xcworkspace
 xcode_scheme: iOSTravisTemplate
 xcode_sdk: iphonesimulator
